@@ -1,0 +1,90 @@
+{
+  "TemplateUri": "file:///C:/Users/michael.anckaert/AppData/Local/Bravo/.temp/ManageDates/Templates/Config-02.template.json",
+  "Name": "Fiscal Year (Michael)",
+  "Description": null,
+  "Templates": [
+    {
+      "Class": "HolidaysDefinitionTable",
+      "Table": "HolidaysDefinition",
+      "Template": "HolidaysDefinition.json",
+      "ReferenceTable": null,
+      "LocalizationFiles": [],
+      "TargetMeasures": [],
+      "IsHidden": true,
+      "IsEnabled": true,
+      "Properties": {}
+    },
+    {
+      "Class": "HolidaysTable",
+      "Table": "Holidays",
+      "Template": null,
+      "ReferenceTable": null,
+      "LocalizationFiles": [],
+      "TargetMeasures": [],
+      "IsHidden": true,
+      "IsEnabled": true,
+      "Properties": {}
+    },
+    {
+      "Class": "CustomDateTable",
+      "Table": "Date",
+      "Template": "DateTemplate-02.json",
+      "ReferenceTable": "DateAutoTemplate",
+      "LocalizationFiles": [],
+      "TargetMeasures": [],
+      "IsHidden": false,
+      "IsEnabled": true,
+      "Properties": {}
+    },
+    {
+      "Class": "MeasuresTemplate",
+      "Table": null,
+      "Template": "TimeIntelligence-02.json",
+      "ReferenceTable": null,
+      "LocalizationFiles": [],
+      "TargetMeasures": [],
+      "IsHidden": false,
+      "IsEnabled": true,
+      "Properties": {
+        "__DisplayFolderRule": "Time intelligence\\@_MEASURE_@\\@_TEMPLATEFOLDER_@",
+        "_DisplayFolderRule": "Time intelligence\\@_TEMPLATEFOLDER_@\\@_TEMPLATE_@",
+        "___DisplayFolderRule": "Time intelligence\\@_TEMPLATEFOLDER_@\\@_MEASURE_@",
+        "DisplayFolderRule": "Time intelligence\\@_TEMPLATEFOLDER_@\\@_MEASUREFOLDER_@\\@_MEASURE_@",
+        "DisplayFolderRuleSingleInstanceMeasures": "Hidden Time Intelligence"
+      }
+    }
+  ],
+  "IsoTranslation": null,
+  "IsoFormat": null,
+  "LocalizationFiles": [
+    "DateLocalization-02.json"
+  ],
+  "OnlyTablesColumns": [],
+  "ExceptTablesColumns": [],
+  "AutoScan": "Full",
+  "FirstYearMin": null,
+  "FirstYearMax": null,
+  "LastYearMin": null,
+  "LastYearMax": null,
+  "FirstYear": null,
+  "LastYear": null,
+  "DefaultVariables": {
+    "__FirstFiscalMonth": "7",
+    "__FirstDayOfWeek": "0"
+  },
+  "IsoCountry": "US",
+  "InLieuOfPrefix": "(in lieu of ",
+  "InLieuOfSuffix": ")",
+  "HolidaysDefinitionTable": "HolidaysDefinition",
+  "WorkingDays": "{ 2, 3, 4, 5, 6 }",
+  "HolidaysReference": {
+    "TableName": "Holidays",
+    "DateColumnName": "Holiday Date",
+    "HolidayColumnName": "Holiday Name"
+  },
+  "AutoNaming": "Prefix",
+  "AutoNamingSeparator": null,
+  "TargetMeasures": [],
+  "TableSingleInstanceMeasures": null,
+  "DisplayFolderRule": null
+}
