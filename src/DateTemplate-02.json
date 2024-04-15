@@ -207,7 +207,7 @@
     },
     {
       "Name": "Quarter",
-      "Expression": "__FiscalQuarterNumber",
+      "Expression": "\"Q\" & __FiscalQuarterNumber",
       "DataType": "String",
       "DataCategory": "QuarterOfYear"
     },
